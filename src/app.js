@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'Can I help?',
+        helpText: 'What Help do you want?! You do not need any special help, this is a very simple site 😉',
         title: 'Help',
         name: 'David Saidon'
     });
@@ -99,5 +99,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log('Server is up on port' + port);
+    console.log('Server is up on port ' + port);
 });

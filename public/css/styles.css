@@ -8,6 +8,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('../img/cloud-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-content {
@@ -52,4 +55,12 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+p {
+    color: black;
+}
+
+a {
+    color: blue;
 }
